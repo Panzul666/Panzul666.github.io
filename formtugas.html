@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>data mahasiswa</legend>
+            <table>
+                <tr>
+                    <td><label for="nama">Nama :</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="npm">NPM</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="npm"></td>
+                </tr>
+                <tr>
+                    <td>Kelas</td>
+                    <td>:</td>
+                    <td>
+                        <select name="kelas">
+                            <option>-</option>
+                            <option value="IF A">IF A</option>
+                            <option value="IF B">IF B</option>
+                            <option value="IF C">IF C</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="jeniskelamin" id="pria">Pria
+                        <input type="radio" name="jeniskelamin" id="wanita">Wanita
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>tempat tinggal siswa</legend>
+            <table>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea style="width: 200px; height: 50px;"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Kecamatan</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Kabupaten?Kotamadya</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Provinsi</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Kode Pos</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>lain-lainnya</legend>
+            <table>
+                <tr>
+                    <td align="top">Bahasa Pemograman</td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" name="c" id="c">C/C++
+                        <input type="checkbox" name="go" id="go">Go Lang
+                        <input type="checkbox" name="py" id="py">Python
+                        <input type="checkbox" name="lain" id="lain">Lainnya
+                        <br>
+                        <input type="checkbox" name="php" id="php">PHP
+                        <input type="checkbox" name="js" id="js">Javascript
+                        <input type="checkbox" name="ruby" id="ruby">Ruby
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kegiatan</td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" name="" id="">organisasi kemahasiswaan
+                        <input type="checkbox" name="" id="">bidang olahraga
+                        <input type="checkbox" name="" id="">Lainnya
+                        <br>
+                        <input type="checkbox" name="" id="">organisasi diluar kampus
+                        <input type="checkbox" name="" id="">bidang seni
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <button value="submit">Submit</button>
+        <button value="reset">Reset</button>
+    </form>
+</body>
+
+</html>
